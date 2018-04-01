@@ -8,7 +8,7 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
-  before_script:
+before_script:
   - git config --global user.email "psymhs@gmail.com"
   - git config --global user.name "hyun6"
 
