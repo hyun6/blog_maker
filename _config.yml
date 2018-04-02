@@ -1,7 +1,7 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
+paginate: 10 # it will paginate after this number
 language: 'en-uk'
 
 url: https://hyun6.github.io/
@@ -17,7 +17,7 @@ logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://hyun6.github.io/
-source_url: https://github.com/hyun6/blog_maker
+source_url: https://github.com/hyun6/blog_maker/
 
 # Social info
 navigation: True # show the navbar links
@@ -32,7 +32,7 @@ disqus: True
 disqus_shortname: hyunsickmoon # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: #UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -44,6 +44,7 @@ permalink: /:title
 
 # gems and other configs
 plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+exclude: [vendor]
 
 feed:
   path: feed.xml
@@ -74,7 +75,7 @@ branch: master
 relative_source: #../jasper2/
 destination: ./output/
 production_url: https://hyun6.github.io/
-source_url: https://github.com/hyun6/blog_maker
+source_url: https://github.com/hyun6/blog_maker/
 
 exclude:
   - README.md
