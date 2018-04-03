@@ -29,13 +29,14 @@ facebook: # replace by your username
 
 # Disqus
 disqus: True
-disqus_shortname: hyunsickmoon # replace with your disqus username
+disqus_shortname: hyun6s-blog # replace with your disqus username
 
 # Google Analytics
-google_analytics: #UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-116818034-1 #UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
-permalink: /:title
+permalink: pretty # /:categories/:year/:month/:day/:title/
+# permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
 
